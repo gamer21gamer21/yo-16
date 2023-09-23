@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+           body{
+		   display:flex;
+		   justify-content:center;
+		   align-items:center;
+		   background-color:brown;
+		   heigth:100vh;
+		   }
+		   .game{
+		   width:600px;
+		   padding:20px;
+		   background-color:green;
+		   
+		   }
+		   .game img{
+		   width:30%;
+		   margin-right:15px;
+		   cursor:pointer ;
+		   }
+        </style>
+    </head>
+    <body>
+       <!-- <div class="age">
+            <input type="word & number" placeholder="password pls">
+            <button onclick="convert()">END DARNA UU</button>
+            <p>10 charecter long</p>
+            <p>1 lowercase</p>
+            <p>1 number</p>
+            <p>1 symbol</p>
+            <p>1upercase</p>
+        </div>
+		<button onclick="test()">click here</button>
+		<button onclick="bott()">click here</button>-->
+		<div class="game">
+			<div class="choise">
+			<img src="https://www.vhv.rs/dpng/d/535-5351099_rock-paper-scissors-rock-paper-scissor-icons-png.png"onclick="play('paper')">
+                <img src="img/ZD_1143923_9in-Fabric-Scissors_Silo_Square_1_v2.png"onclick="play('scissor')">
+                <img src="https://toppng.com/uploads/preview/rock-paper-scissors-circle-11562962494dqcjusyikw.png"onclick="play('rock')">
+			</div>
+			<div class="result">
+			<p class="player">player choice:</p>
+			<p class="computer">computer choice:</p>
+			<p class="winner">winner:</p>
+			<p class="score">player score:</p>
+			<p class="score">bot score:</p>
+			</div>
+			</div>
+        <script src ="app.js"></script>
+    </body>
+</html>
